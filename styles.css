@@ -1,11 +1,47 @@
-.center {
-	border-color: black;
-	justify-content: center;
-	align-items: center;
-  	margin: auto;
+body {
+    background-image:url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+html {
+    height: 100%
 }
 
-img {
-	margin: auto;
+#svg_logo {
+	width: 36em;
 	display: block;
+	margin:  auto;
+	margin-top: 12%;
+}
+
+#button {
+	display: block;
+	margin: auto;
+	position: relative;
+	width: 10em;
+	height: 1em;
+	top: 2.5em;
+
+	text-align: center;
+	padding: .6em;
+	border: 1px solid white;
+	border-radius: .2em;
+
+	font-family: "Lucida Sans Unicode", Times, serif;
+	background-color: rgba(255, 255, 255, 0.2);
+	color:white;
+}
+
+#button:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, .95);
+	color: black;
+}
+
+@media (max-width: 35em){
+	#svg_logo {
+		width: 90%;
+		margin-top: 10%;
+	}
 }
