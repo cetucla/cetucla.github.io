@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
 }
 html {
-    height: 100%
+    height: 100%;
 }
 
 #svg_logo {
@@ -26,17 +26,19 @@ html {
 	text-align: center;
 	padding: .6em;
 	border: 1px solid white;
-	border-radius: .2em;
+	border-radius: 1em;
 
 	font-family: "Lucida Sans Unicode", Times, serif;
-	background-color: rgba(255, 255, 255, 0.2);
-	color:white;
+	/*background-color: rgba(255, 255, 255, 0.3);*/
+
+	background-color: rgba(255, 255, 255, .95);
+	color: darkblue;
 }
 
 #button:hover {
 	cursor: pointer;
-	background-color: rgba(255, 255, 255, .95);
-	color: black;
+	background-color: black;
+	color:white;
 }
 
 @media (max-width: 35em){
